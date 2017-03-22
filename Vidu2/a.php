@@ -8,7 +8,7 @@
     <script src="../jquery-3.1.1.min.js"></script>
     <script>
         $(document).ready(function(){
-           $.get("b.php",{ho: "LeMinhHai"},function (data) {
+           $.post("b.php",{ho: "LeMinhHai"},function (data) {
                $("#noidung").html(data);
                
            });
